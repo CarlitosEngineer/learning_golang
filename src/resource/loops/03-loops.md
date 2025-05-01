@@ -1,17 +1,19 @@
-# Bloque 1: Learn the Basics (Aprende lo básico)
+# **Go by Carlitos!**
 
-## Sub-Bloque 3: Programming Tools 1 (Herramientas de Programación 1)
+## Bloque 1: Learn the Basics (Aprende lo basico)
 
-### Temas
+### Sub-Bloque 3: programming tools 1 (herramientas de programación 1)
 
-- `for` loop  
-- `range`  
-- `if`, `switch` statements  
-- `error`, `panic`, `recover`  
+- For Loop
+- range
+- if, switch statements
+- Errors, Panic, Recover
 
-### Resumen
+---
 
-- En **Go**, `for` es **el único bucle** disponible. Puedes adaptarlo para comportarse como otros tipos de bucles:
+#### Let's get started (Empecemos)
+
+- En **Go**, `for` es **el único bucle** disponible **que existe**. lo que significa que no existe cosas como *while* o **do while** deberas de aprender a adaptar el **for** paraque se comporte como ellos.
   
   - `for` la version clasica o tradicional.
   - Bucle estilo `while`

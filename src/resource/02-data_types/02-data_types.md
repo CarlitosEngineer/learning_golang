@@ -1,8 +1,24 @@
-# Bloque 1: Learn the Basics (Aprende lo basico)
 
-## Sub-Bloque 2: Data Types (Tipos de datos)
+# **Go by Carlitos!**
 
-Go es **muy estricto** con los tipos.
+## Bloque 1: Learn the Basics (Aprende lo basico)
+
+### Sub-Bloque 2: Data Types (Tipos de datos)
+
+- int, int8/16/32/64
+- uint, uint8/16/32/64
+- float32, float64
+- bool
+- byte
+- rune
+- complex64/128
+- uintptr
+
+---
+
+#### Let's get started (Empecemos)
+
+- Go es **muy estricto** con los tipos. **int** , **int8/16/32/64** , **uint** , **uint8/16/32/64** , **float32** , **float64** , *bool* , **byte** , **rune** , **complex64/128** , **uintptr**
 
 | Tipo       | Descripción |
 |------------|-------------|
@@ -25,7 +41,8 @@ Go es **muy estricto** con los tipos.
 | `complex128`| Número complejo (float64 parte real + float64 parte imaginaria) |
 | `uintptr`  | Número entero para almacenar direcciones de memoria |
 
-### **Recomendaciones**:
+#### **Recomendaciones**:
+
 - nosotros debemos usar `int` y `float64` por defecto, los demas tipos, debemos razonar si es son necesarios usarlos.
 - `rune` y `byte` para strings
 - no te preocupes por `uintptr`, cosas de punteros muy especificas.

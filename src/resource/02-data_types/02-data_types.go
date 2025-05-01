@@ -28,8 +28,8 @@ func testing_variables() {
 	var m bool = true
 
 	// Byte y rune
-	var n byte = 'A'           // alias de uint8
-	var o rune = '😊'           // alias de int32 (unicode)
+	var n byte = 'A' // alias de uint8
+	var o rune = '😊' // alias de int32 (unicode)
 
 	// Complejos
 	var p complex64 = complex(1.5, 2.5)
@@ -59,19 +59,8 @@ func testing_variables() {
 	fmt.Println("uintptr (dirección simulada):", r)
 }
 
-
 func main() {
 	testing_variables()
 }
 
-/*
-
-- Recomendaciones:
-
-	- nosotros debemos usar `int` y `float64` por defecto, los demas tipos, debemos razonar si es son necesarios usarlos.
-	- `rune` y `byte` para strings
-	- no te preocupes por `uintptr`, cosas de punteros muy especificas.
-
-*/
-
-// go run src\code\02-B1S2\02-B1S2.go
+// go run src\resource\02-data_types\02-data_types.go
