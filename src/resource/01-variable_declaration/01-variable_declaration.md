@@ -13,9 +13,11 @@
 
 - **Basic Syntax** Y **Variables and declaration**:
 
+Estas son las formas de declarar una variable.
+
 ```golang
-var nombre string = "Carlitos" // Forma explicita
-var apodo = "Tangas" // De la forma Implicita
+var nombre string = "Carlos" // Forma explicita
+var apodo = "Carlitos" // De la forma Implicita
 var a, b, c int = 1, 2, 3 // Incluso multiples variablers.
 pais := "mexico" // Forma corta y poco alcance, Solo dentro de funciones
 ```

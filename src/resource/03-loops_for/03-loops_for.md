@@ -15,7 +15,7 @@
 
 En **Go**, **el único bucle** disponible **que existe** es `for`. lo que significa que no existe cosas como *while* o **do while** y otros. si los quieres, deberas de aprender a adaptar el **for** paraque se comporte como ellos y poder simularlos.
 
-**Primero entendamos como se comporta cada uno de ellos, para entender como simularlos**
+**Primero entendamos como se comporta cada uno de ellos, para entender como simularlos** en el archivo `03-loops_for.go` encontraras las diferentes formas de hacer un `for`
 
 #### Loops - For Clasico
 

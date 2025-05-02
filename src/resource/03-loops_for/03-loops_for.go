@@ -38,7 +38,7 @@ func learning_loop_forv3() {
 func learning_loop_forv4() {
 	for {
 		fmt.Println("Bucle infinito")
-		break // ¡recuerda salir o será eterno!
+		break // ¡recuerda salir o será eterno! Pero debes imaginar como usarlo.
 	}
 }
 
