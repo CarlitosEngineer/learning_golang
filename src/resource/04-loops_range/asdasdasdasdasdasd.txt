@@ -1,33 +1,6 @@
-package main
 
-import (
-	"errors"
-	"fmt"
-)
 
-// BUCLE --> for
-func testing_loop_for() {
-	for i := 0; i < 5; i++ {
-		fmt.Println("Iteración:", i)
-	}
-}
 
-// BUCLE --> while
-func testing_loop_while() {
-	i := 0
-	for i < 3 {
-		fmt.Println("Valor de i:", i)
-		i++
-	}
-}
-
-// BUCLE --> Infinite loop
-func Infinite_loop() {
-	for {
-		fmt.Println("Bucle infinito")
-		break // ¡recuerda salir o será eterno!
-	}
-}
 
 // BUCLE --> `range` (para recorrer slices, arrays, maps, etc.)
 func testing_loop_range() {
