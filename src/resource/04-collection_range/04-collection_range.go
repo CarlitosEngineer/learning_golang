@@ -47,7 +47,6 @@ func main() {
 	learning_loops_range_v2()
 	learning_loops_range_v3()
 	learning_loops_range_v4()
-
 }
 
 // go run src\resource\04-collection_range\04-collection_range.go
