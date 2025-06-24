@@ -27,14 +27,14 @@
     - make()
     - Structs
 
-# bibliography
+## bibliography
 
 **Note:** Yo he tomado como referencia la ruta de **"roadmap"** como guía para tener una ruta de aprendizaje, me refiero a saber, **¿qué ver?** Y **¿en qué orden lo veo?** Hasta aquí llega mi relación con Roadmap. Todos los escritos, texto, imágenes y código son de mi propia autoría.
 
 - [original route](https://roadmap.sh/golang)
 - [my progress](https://roadmap.sh/golang?s=67f7298446da096541bebece)
 
-# The End
+#### The End
 
 # Go CheatSheet by Carlitos
 
