@@ -1,11 +1,11 @@
-package main
+package bin
 
 import (
 	"fmt"
 	"math/cmplx"
 )
 
-func testingVariables() {
+func TestingVariables1() {
 	// Constantes
 	const variablePi = 3.14159
 	const variableGreeting string = "Hola desde Go"
@@ -80,9 +80,5 @@ func testingVariables() {
 	fmt.Println("Zero string:", defaultString)
 	fmt.Println("Shorthand:", shorthand)
 	fmt.Printf("Tipo: %T, Valor: %v\n", variable14, variable14) // imprime tipo de dato mas su valor
-
-}
-
-func main() {
-	testingVariables() // En Go, la convención es usar [camelCase] para nombres de funciones y variables no exportadas, y [PascalCase] si son públicas.
+	// go run src\bin\DataTypes_NumericTypes.go
 }
