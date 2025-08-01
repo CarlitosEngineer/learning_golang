@@ -8,8 +8,7 @@ import (
 func main() {
 	fmt.Println("Bienvenido a Go Learning Project 🚀")
 	// Learning Data Types
-	bin.TestingVariables1()
-
+	bin.Ejecutar_cap1Go()
 	// Learning Strings
 	bin.Testing_RawStringsLiterals1()
 	bin.Testing_InterpretedStringLiterals1()
